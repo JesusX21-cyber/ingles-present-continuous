@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica Interactiva: Present Continuous</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>English Practice: Present Continuous</h1>
+    
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <div id="quiz">
+      <div class="question" id="questionText">Cargando pregunta...</div>
+      <div class="options" id="optionsContainer"></div>
+      <div class="feedback" id="feedbackText"></div>
+      <div class="score" id="scoreText">Puntaje: 0 / 10</div>
+    </div>
+
+    <div class="action-buttons">
+      <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Siguiente Pregunta ➔</button>
+      <button class="restart-btn" id="restartBtn" onclick="initQuiz()">Reiniciar Quiz</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
